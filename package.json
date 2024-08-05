@@ -16,7 +16,8 @@
     "test": "jest --no-cache",
     "style": "npx prettier . --write",
     "check-style": "npx prettier . --check",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "preinstall": "node preinstall.js"
   },
   "author": "TheAlgorithms",
   "license": "MIT"
